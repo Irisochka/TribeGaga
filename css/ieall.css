@@ -1,0 +1,106 @@
+.user-box-list, .user-box-item, .user-box-item .user-box-headline, .user-box-item .user-box-pic, 
+.pane-shadow, .pane-rounding, .pane-content, .sidebar .sidebar-inner, .sidebar .sidebar-headline, 
+.sidebar .sidebar-content,  .pane-footer, .portfolio-detail-item, .portfolio-block-headline, 
+.portfolio-details-statistic .statistic-block-content, .gaga-stick, .portfolio-details-statistic,
+.comment-title, .comment-content, .content-wrapper .sidebar .sidebar-inner, .personalize-gagastick-photo img, .sidebar-products h2, .personal-design-wrp .headline, 
+.user-selected-product-list .jcarousel-container-horizontal, .user-selected-product-list h2, .user-selected-product-list
+/* , .stasher-photo-frame */
+/* .stash-block-wrapper .stash-item,
+.stash-item .stash-headline, .stasher-photo-frame */ {
+	 position: relative;
+	 behavior: url(css/PIE.htc);
+}
+
+input[type=checkbox], input[type=radio]  {border: none}
+
+.gaga-word {
+	position: relative;
+	top: -15px;
+	z-index: 10;
+}
+
+.top-sub-menu {z-index: 90;}
+
+.pane-center-outer {background: #fff;}
+
+.pane-headline-block {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.pane-headline-block h2 {
+	display: inline;
+	width: auto;
+	margin: 0;
+	position: relative;
+	left: -2px;
+	top: 0 !important;
+	filter: progid:DXImageTransform.Microsoft.Matrix(M11=-1, M12=-1.2246063538223773e-16, M21=1.2246063538223773e-16, M22=-1, sizingMethod='auto expand');
+    zoom: 1;
+}
+
+.pane-headline-block h2.page-title, .pane-headline-block h2.user-name, .featured-slider-item .pane-headline-block h2 {margin: 0;}
+
+.browse .input-file {filter: alpha(opacity=0)}
+
+.browse .input-fake {
+	text-indent: 0;
+	width: 190px;
+}
+
+.user-photo-frame-left .user-photo-inner img {
+	-ms-transform: rotate(357deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9986295347545738, M12=0.05233595624294383, M21=-0.05233595624294383, M22=0.9986295347545738, sizingMethod='auto expand');
+    zoom: 1;
+}
+
+.user-photo-frame-big .user-photo-inner img, .user-photo-frame-right .user-photo-inner img {
+	-ms-transform: rotate(3deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9986295347545738, M12=-0.05233595624294383, M21=0.05233595624294383, M22=0.9986295347545738, sizingMethod='auto expand');
+    zoom: 1;
+}
+
+/* Pane headline position */
+.pane-headline-block span {top: 0px !important;}
+
+.my-stashers-wrapper .my-stashers-item {margin: 0px 63px 32px 0;}
+/* Pane headline position */
+
+.portfolio-slider-item .design-action .lnk-wrapper span {top: 33px !important;}
+
+.portfolio-page .pane-headline-block span {top: 0;}
+
+.user-photo-inner {padding: 15px 10px 0 5px;}
+
+.user-photo-inner {height: 190px;} 
+
+.user-menu-wrapper {
+    background: url("../images/user-menu-bg.png") no-repeat left top;
+    width: 938px;
+    height: 70px;
+    border: 0;
+    margin: 14px 0 6px;
+}
+
+.portfolio-menu li {padding-top: 11px;}
+
+.portfolio-menu li a, .portfolio-menu li span {line-height: 1.2}
+
+.personalize-gagastick-number span {
+	 -ms-transform: rotate(270deg);
+	 filter: progid:DXImageTransform.Microsoft.Matrix(M11=-1.836909530733566e-16, M12=1, M21=-1, M22=-1.836909530733566e-16, sizingMethod='auto expand');
+     zoom: 1;
+     display: none;
+}
+
+.form-personalize-text .right-block h3 {padding: 0}
+
+.featured-slider-item .pane-headline-block span {
+	left: 0;
+    top: 0;
+}
+
+.sidebar .sidebar-inner {background-color: #fff;}
+
+.featured-slider-item .pane-headline-block h2 {left: 0}

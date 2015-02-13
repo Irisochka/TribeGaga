@@ -1,0 +1,496 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tribe GAGA. Share your flavor.</title>
+<link type="image/x-icon" href="favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/theme.css" type="text/css" />
+<link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css" type="text/css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.reflect-0.1.min.js"></script>
+<!-- <script type="text/javascript" src="js/jquery.smSlider.min.js"></script> -->
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="js/jquery.qtip-1.0.0-rc3.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="fonts/Calliope_MVB_Std_Sb_600.font.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="css/ieall.css" />
+<![endif]-->
+<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" href="css/ie7.css" />
+<![endif]-->
+
+
+<script type="text/javascript">
+Cufon.replace(".gaga-artist", {fontFamily: 'Calliope MVB Std Sb'});
+
+window.onload = function() {
+	var reflectOptions = {
+	    el: ".reflect",
+	    height: 1,
+	    opacity: 1,
+	    distanceV: 7,
+	    addHeight: false
+	}
+	reflection(reflectOptions);
+};
+
+jQuery(document).ready(function($) {
+    jQuery('#mycarousel').jcarousel({
+    	scroll: 3,
+    	itemFallbackDimension: 240
+    });
+    
+    $("a.fancybox").fancybox({
+		'titlePosition'	: 'outside',
+		'title' : 'Flag this design as inappropriate',
+		'overlayColor' : '#333',
+		'overlayOpacity' : 0.9,
+		'padding' : 0,
+		'transitionIn' : 'none',
+		'transitionOut' : 'none',
+		'onComplete': function() {
+			$("#fancybox-title").css({'top':'0px', 'bottom':'auto', 'position':'absolute'});
+		} 
+	});
+    $("a.fancybox-mess").fancybox({
+		'titlePosition'	: 'outside',
+		'title' : 'Message from Nadine LaFond',
+		'overlayColor' : '#333',
+		'overlayOpacity' : 0.9,
+		'padding' : 0,
+		'transitionIn' : 'none',
+		'transitionOut' : 'none',
+		'onComplete': function() {
+			$("#fancybox-title").css({'top':'0px', 'bottom':'auto', 'position':'absolute'});
+		} 
+	});
+    $('a[title].tips,span[title].tips').qtip({
+		position: {
+			corner: {target: 'topRight', tooltip: 'leftMiddle'}
+	   }
+	});
+});
+</script>
+</head>
+
+<body>
+<div id="wrapper" class="red-theme">
+	<div id="page-outer">
+		<div id="page-container">
+			<div id="header">
+				<h1 class="logo">
+					<a href="#" title="Tribe Gaga">Tribe GAGA. Share your flavor.</a>
+				</h1>
+				<div class="top-nav clearfix">
+					<a href="#" class="button default-button right">buy gaga</a>
+					<div id="top-menu-wrapper">	
+						<ul class="top-menu">
+							<li><a href="#">my account <span class="icons black-arrow-down">&nbsp;</span></a>
+								<ul class="top-sub-menu">
+									<li><a href="#">accept an invite</a>
+										<ul>
+											<li><a href="#">Enter code here</a></li>
+										</ul>
+									</li>
+									<li><a href="#">go to my gagaSPOT...</a></li>
+									<li><a href="#">go to my Portfolio...</a></li>
+									<li><a href="#">view/edit my profile...</a></li>
+									<li><a href="#">logout</a></li>
+								</ul>
+							</li>
+							<li><a href="#">stash it <span class="icons black-arrow-down">&nbsp;</span></a>
+								<ul class="top-sub-menu">
+									<li><a href="#">word...</a></li>
+									<li><a href="#">image...</a></li>
+									<li><a href="#">video...</a></li>
+								</ul>
+							</li>
+							<li><a href="#">spot it <span class="icons black-arrow-down">&nbsp;</span></a>
+								<ul class="top-sub-menu">
+									<li><a href="#">All my TRIBE members...</a></li>
+									<li><a href="#">Natasha Khan</a>
+										<ul>
+											<li><a href="#">word...</a></li>
+											<li><a href="#">image...</a></li>
+											<li><a href="#">video...</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Perry Michaels</a>
+										<ul>
+											<li><a href="#">word...</a></li>
+											<li><a href="#">image...</a></li>
+											<li><a href="#">video...</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Rachel Rodriguez</a>
+										<ul>
+											<li><a href="#">word...</a></li>
+											<li><a href="#">image...</a></li>
+											<li><a href="#">video...</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Victor Seaton</a>
+										<ul>
+											<li><a href="#">word...</a></li>
+											<li><a href="#">image...</a></li>
+											<li><a href="#">video...</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">gagaSTICKS <span class="icons black-arrow-down">&nbsp;</span></a>
+								<ul class="top-sub-menu">
+									<li><a href="#">browse...</a></li>
+									<li><a href="#">create...</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="slogan right">
+					<span class="slogan-normal space">what makes you</span><span class="gaga-word">gaga</span><span class="slogan-normal">?</span>
+				</div>
+			</div>
+			
+			<div class="portfolio-page">
+				<div class="pane-container pane-container-indent-top clearfix">
+					<div class="pane-headline-rounding">
+						<div class="pane-headline-block"><h2 class="user-name">Natasha Khan</h2></div> 
+					</div>
+					<div class="pane-content-block">
+						<div class="pane-billboard">
+							<div class="pane-billboard-inner clearfix">
+								<div class="user-photo-frame-left user-photo-frame-indent left">
+									<div class="user-photo-inner">
+										<img src="images/avatar2.png" width="180" height="180" alt="Nadïne LaFond" title="Nadïne LaFond" id="avatar" />	
+									</div>
+									<div class="gaga-artist gaga-artist-position">gaga Artist</div>
+									<div class="share-lnk">
+										<a href="#" class="tips" title="Connect with me on facebook"><img src="images/facebook.png" alt="Connect with me on facebook" /></a>
+									</div>
+								</div>
+								<div class="user-personal-info left">
+									<h2>Welcome to my Portfolio</h2>
+									<div class="user-message">
+										Making art for me starts with moments that immediately strike me as lessons. When the underlying tale begins to emerge, I follow that energy.
+										<div><a href="message.html" class="user-message-lnk fancybox-mess"><span>more</span> &raquo;</a></div>
+									</div>
+									<div class="user-data">
+										<span class="user-name">nadine36</span>
+										<span class="user-state">Montville, NJ</span>
+										<span class="user-country">USA</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pane-status-bar">
+							<div class="pane-status-bar-inner clearfix">
+								<a href="#" class="left">Visit my gagaSPOT</a>
+							</div>									
+						</div>
+						<div class="statistic-block">
+							<div class="statistic-block-headline">
+								About my Portfolio
+							</div>
+							<div class="statistic-block-content">
+								<ul class="statistic-list">
+									<li><span class="statistic-item">Designs</span><span class="number">45</span></li>
+									<li><span class="statistic-item">Fans</span><span class="number">120</span></li>
+									<li><span class="statistic-item">gaga Moment Shares</span><span class="number">1220</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+					
+				<div id="main-container">
+					<div class="sub-container">		
+						<div class="user-menu-wrapper">
+							<ul class="user-menu portfolio-menu clearfix">
+								<li>&nbsp;</li>
+								<li class="active"><span>my designs</span></li>
+								<li><a href="#">my fans</a></li>
+							</ul>
+						</div>
+						
+						<div class="portfolio-wrapper">																	
+							<div class="portfolio-slider" id="mycarousel">
+								
+									<ul class="portfolio-slider-inner1">
+										<li class="portfolio-slider-item">
+											<div class="design-data">
+												<div class="design-top">	
+													<h3 class="design-headline">The Eyes of My Muse</h3>
+													<span class="design-fullname">by <a href="#">Nadine Lafond</a></span>
+												</div>
+												<div class="design-img-container">
+													<div class="gaga-stick landscape-design" style="background-image: url(images/test3.png)">&nbsp;</div>
+												</div>												
+												<div class="lnk-indent">	
+													<div><span class="inact tips" title="Coming soon!">Share</span></div>
+													<div><a href="#" class="tips" title="Add or view comments">Comments</a> (4)</div>
+													<div><a href="#">Edit</a> | <a href="#">Delete</a></div>
+												</div>
+												<a href="#" class="more-lnk">More Details</a>  
+											</div>
+											
+											<div class="design-action">
+												<div class="design-action-item">
+													<img src="images/heart.png" class="reflect" width="24" height="24" alt="Stash it" />
+													<span class="lnk-wrapper reflect"><a href="#">stash it</a></span>
+												</div>
+												<div class="design-action-item">
+													<img src="images/binocular.png" class="reflect" width="32" height="24" alt="Spot it" />
+													<span class="lnk-wrapper reflect"><a href="#">spot it</a></span>
+												</div>
+												<div class="design-action-item">
+													<img src="images/basket.png" class="reflect" width="24" height="24" alt="Buy it" />
+													<span class="lnk-wrapper reflect"><a href="#">buy it</a></span>
+												</div>
+											</div>
+										</li>
+										
+										<li class="portfolio-slider-item">
+											<div class="design-data">
+												<div class="design-top">	
+													<h3 class="design-headline">The Eyes of My Muse</h3>
+													<span class="design-fullname">by <a href="#">Nadine Lafond</a></span>
+												</div>	
+												<div class="design-img-container">
+													<div class="gaga-stick landscape-design" style="background-image: url(images/test5.png)">&nbsp;</div>
+												</div>
+												
+												<div class="lnk-indent">	
+													<div><span class="inact tips" title="Coming soon!">Share</span></div>
+													<div><a href="#" class="tips" title="Add or view comments">Comments</a></div>
+													<div><a href="inappropriate.html" class="fancybox tips" title="Flag this design as inappropriate">Flag</a></div>
+												</div>
+												<a href="#" class="more-lnk">More Details</a>  
+											</div>
+											
+											<div class="design-action">
+												<div class="design-action-item">
+													<img src="images/heart.png" class="reflect" width="24" height="24" alt="Stash it" />
+													<span class="lnk-wrapper reflect"><a href="#">stash it</a></span>
+												</div>
+												<div class="design-action-item">
+													<img src="images/binocular.png" class="reflect" width="32" height="24" alt="Spot it" />
+													<span class="lnk-wrapper reflect"><a href="#">spot it</a></span>
+												</div>
+												<div class="design-action-item">
+													<img src="images/basket.png" class="reflect" width="24" height="24" alt="Buy it" />
+													<span class="lnk-wrapper reflect"><a href="#">buy it</a></span>
+												</div>
+											</div>
+										</li>
+										
+										<li class="portfolio-slider-item">
+											<div class="design-data">	
+												<div class="design-top-wrp">	
+													<div class="right">
+														<div class="gaga-stick portrait-design" style="background-image: url(images/test4.png)">&nbsp;</div>
+													</div>
+													<div class="design-top">
+														<h3 class="design-headline">Very Beautifull Blue Eyes of My Muse!!!</h3>
+														<span class="design-fullname">by <a href="#">Mandela Leola van Sammatrino</a></span>													
+													</div>
+												</div>
+												
+												<div class="lnk-indent">	
+													<div><span class="inact">NOT FOR PUBLIC SALE</span></div>
+													<div><a href="#" class="tips" title="Add or view comments">Comments</a> (4)</div>
+													<div><a href="#">Edit</a> | <a href="#">Delete</a></div>
+												</div>
+												<a href="#" class="more-lnk">More Details</a>  
+											</div>
+											
+											<div class="design-action">
+												<div class="design-action-item">
+													<img src="images/heart-inact.png" class="reflect" width="24" height="24" alt="Stash it" />
+													<span class="lnk-wrapper reflect"><span>stash it</span></span>
+												</div>
+												<div class="design-action-item">
+													<img src="images/binocular-inact.png" class="reflect" width="32" height="24" alt="Spot it" />
+													<span class="lnk-wrapper reflect"><span>spot it</span></span>
+												</div>
+												<div class="design-action-item">
+													<img src="images/basket-inact.png" class="reflect" width="24" height="24" alt="Buy it" />
+													<span class="lnk-wrapper reflect"><span>buy it</span></span>
+												</div>
+											</div>
+										</li>
+										
+										<li class="portfolio-slider-item">
+											<div class="design-data">
+												<div class="design-top">	
+													<h3 class="design-headline">The Eyes of My Muse</h3>
+													<span class="design-fullname">by <a href="#">Nadine Lafond</a></span>
+												</div>
+												<div class="design-img-container">
+													<div class="gaga-stick landscape-design" style="background-image: url(images/test3.png)">&nbsp;</div>
+												</div>
+												
+												<div class="lnk-indent">	
+													<div><span class="inact tips" title="Coming soon!">Share</span></div>
+													<div><a href="#" class="tips" title="Add or view comments">Comments</a> (4)</div>
+													<div><a href="#">Edit</a> | <a href="#">Delete</a></div>
+												</div>
+												<a href="#" class="more-lnk">More Details</a>  
+											</div>
+											
+											<div class="design-action">
+												<div class="design-action-item">
+													<img src="images/heart.png" class="reflect" width="24" height="24" alt="Stash it" />
+													<span class="lnk-wrapper reflect"><a href="#">stash it</a></span>
+												</div>
+												<div class="design-action-item">
+													<img src="images/binocular.png" class="reflect" width="32" height="24" alt="Spot it" />
+													<span class="lnk-wrapper reflect"><a href="#">spot it</a></span>
+												</div>
+												<div class="design-action-item">
+													<img src="images/basket.png" class="reflect" width="24" height="24" alt="Buy it" />
+													<span class="lnk-wrapper reflect"><a href="#">buy it</a></span>
+												</div>
+											</div>
+										</li>
+										
+										<li class="portfolio-slider-item">
+											<div class="design-data">
+												<div class="design-top">	
+													<h3 class="design-headline">The Eyes of My Muse</h3>
+													<span class="design-fullname">by <a href="#">Nadine Lafond</a></span>
+												</div>
+												<div class="design-img-container">
+													<div class="gaga-stick landscape-design" style="background-image: url(images/test5.png)">&nbsp;</div>
+												</div>
+												
+												<div class="lnk-indent">	
+													<div><span class="inact tips" title="Coming soon!">Share</span></div>
+													<div><a href="#" class="tips" title="Add or view comments">Comments</a></div>
+													<div><a href="inappropriate.html" class="fancybox tips" title="Flag this design as inappropriate">Flag</a></div>
+												</div>
+												<a href="#" class="more-lnk">More Details</a>  
+											</div>
+											
+											<div class="design-action">
+												<div class="design-action-item">
+													<img src="images/heart.png" class="reflect" width="24" height="24" alt="Stash it" />
+													<span class="lnk-wrapper reflect"><a href="#">stash it</a></span>
+												</div>
+												<div class="design-action-item">
+													<img src="images/binocular.png" class="reflect" width="32" height="24" alt="Spot it" />
+													<span class="lnk-wrapper reflect"><a href="#">spot it</a></span>
+												</div>
+												<div class="design-action-item">
+													<img src="images/basket.png" class="reflect" width="24" height="24" alt="Buy it" />
+													<span class="lnk-wrapper reflect"><a href="#">buy it</a></span>
+												</div>
+											</div>
+										</li>
+										
+										<li class="portfolio-slider-item">
+											<div class="design-data">
+												<div class="design-top">	
+													<h3 class="design-headline">The Eyes of My Muse</h3>
+													<span class="design-fullname">by <a href="#">Nadine Lafond</a></span>
+												</div>
+												<div class="design-img-container">
+													<div class="gaga-stick landscape-design" style="background-image: url(images/test5.png)">&nbsp;</div>
+												</div>
+												
+												<div class="lnk-indent">	
+													<div><span class="inact tips" title="Coming soon!">Share</span></div>
+													<div><a href="#" class="tips" title="Add or view comments">Comments</a></div>
+													<div><a href="inappropriate.html" class="fancybox tips" title="Flag this design as inappropriate">Flag</a></div>
+												</div>
+												<a href="#" class="more-lnk">More Details</a>  
+											</div>
+											
+											<div class="design-action">
+												<div class="design-action-item">
+													<img src="images/heart.png" class="reflect" width="24" height="24" alt="Stash it" />
+													<span class="lnk-wrapper reflect"><a href="#">stash it</a></span>
+												</div>
+												<div class="design-action-item">
+													<img src="images/binocular.png" class="reflect" width="32" height="24" alt="Spot it" />
+													<span class="lnk-wrapper reflect"><a href="#">spot it</a></span>
+												</div>
+												<div class="design-action-item">
+													<img src="images/basket.png" class="reflect" width="24" height="24" alt="Buy it" />
+													<span class="lnk-wrapper reflect"><a href="#">buy it</a></span>
+												</div>
+											</div>
+										</li>
+										
+										<li class="portfolio-slider-item">
+											<div class="design-data">
+												<div class="design-top">	
+													<h3 class="design-headline">The Eyes of My Muse</h3>
+													<span class="design-fullname">by <a href="#">Nadine Lafond</a></span>
+												</div>
+												<div class="design-img-container">
+													<div class="gaga-stick landscape-design" style="background-image: url(images/test5.png)">&nbsp;</div>
+												</div>
+												
+												<div class="lnk-indent">	
+													<div><span class="inact tips" title="Coming soon!">Share</span></div>
+													<div><a href="#" class="tips" title="Add or view comments">Comments</a></div>
+													<div><a href="inappropriate.html" class="fancybox tips" title="Flag this design as inappropriate">Flag</a></div>
+												</div>
+												<a href="#" class="more-lnk">More Details</a>  
+											</div>
+											
+											<div class="design-action">
+												<div class="design-action-item">
+													<img src="images/heart.png" class="reflect" width="24" height="24" alt="Stash it" />
+													<span class="lnk-wrapper reflect"><a href="#">stash it</a></span>
+												</div>
+												<div class="design-action-item">
+													<img src="images/binocular.png" class="reflect" width="32" height="24" alt="Spot it" />
+													<span class="lnk-wrapper reflect"><a href="#">spot it</a></span>
+												</div>
+												<div class="design-action-item">
+													<img src="images/basket.png" class="reflect" width="24" height="24" alt="Buy it" />
+													<span class="lnk-wrapper reflect"><a href="#">buy it</a></span>
+												</div>
+											</div>
+										</li>																				
+									</ul>
+							</div>
+						</div>
+						
+						<div class="pane-footer">
+							<span class="pages">Page <span class="pages-current">1</span> of <span class="pages-total"></span></span>
+							<span class="right-text"><a href="#" class="right-text-lnk">Re-sort my designs</a></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<div id="footer">
+		<div class="feedback left"><a href="#" class="button gray-button">feedback</a></div>
+		<div class="share right">
+			<div class="share-icon"><a href="#"><img src="images/addthis.png" alt="" /></a></div>Spread gaga!
+		</div>
+		<div class="footer-center">
+			<div class="footer-menu-w">
+				<ul class="footer-menu">
+					<li><a href="#">FooterPage1</a></li>
+					<li><a href="#">FooterPage2</a></li>
+					<li><a href="#">FooterPage3</a></li>
+					<li><a href="#">FooterPageN</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="copyright">&copy; 2011 TRIBE GAGA.  Copyright notice.</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

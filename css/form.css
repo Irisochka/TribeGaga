@@ -1,0 +1,461 @@
+.form-line {
+	padding-bottom: 9px;
+}
+
+.form-cell {
+	width: 258px;
+}
+
+label a {
+    color: #f36b21;
+    text-decoration: none;
+}
+
+label a:hover {
+    text-decoration: underline;
+}
+
+
+/* User box index page */
+.user-form {
+	padding: 6px 0 0 6px 
+}
+
+.user-form .email, .user-form .pass {
+	width: 154px;
+	padding: 3px 6px;
+	margin-bottom: 10px;
+}
+
+.user-form input.keep {
+	border: 0;
+	width: auto;
+	margin: 0 5px 0 0;
+	vertical-align: middle; 
+}
+
+.user-form label {
+	color: #333;
+	font-size: 12px;
+	vertical-align: middle; 
+	cursor: pointer;
+}
+
+.user-form .remember {
+	display: block;
+	margin: 14px 0 0;
+	color: #F36B21;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.user-form .remember:hover {
+	text-decoration: underline;
+}
+
+.user-box-item .default-button {
+	position: absolute;
+	right: 11px;
+	bottom: 10px;
+}
+/* User box index page */
+
+
+
+/* Sign up form */
+.registr-form {
+	padding-left: 32px; 
+}
+
+.registr-form .form-indent {
+	padding: 0 0 15px 32px;
+}
+
+.registr-form h5 {
+	margin: 0 0 0 -32px;
+	padding: 0 0 1px;
+	font-weight: normal;
+}
+
+.registr-form h5 span, .label span, .edit-profile-page .content h5 span {
+	font: italic 12px/1 Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+	color: #666;
+	cursor: text;
+}
+
+.label {
+	display: block;
+	padding-bottom: 2px;
+}
+
+.registr-form .reg-input, .default-input {
+	width: 238px;
+	padding: 2px 3px;
+	font-size: 18px;
+	color: #333;
+}
+
+.registr-form .radio-box {
+	padding-top: 14px;
+}
+
+.registr-form .radio-box #male, .registr-form .radio-box #female {
+	margin-left: 0;
+	padding: 0;
+	border: 0; 
+}
+
+.default-select {
+	width: 246px;
+	height: 26px;
+	color: #333333;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.reg-checklist {
+	padding: 5px 6px;
+}
+
+.reg-checklist .form-line {
+    padding-bottom: 14px;
+}
+
+.reg-checklist .check {
+	float: left; 
+	margin-right: 8px;
+}
+
+.reg-checklist .check input {
+	margin: 4px 0 0 0;
+	padding: 0;
+	border: 0;
+}
+
+.reg-checklist .textcheck {
+	display: block;
+	overflow: hidden; 
+	font-size: 16px;
+}
+
+/*.reg-checklist .textcheck a {
+	color: #F36B21;
+	text-decoration: none;
+}*/
+/* Sign up form */
+
+
+/* Login form */
+.forgot-user-form-w {
+	width: 580px;
+	padding: 32px 0 0 36px;
+	color: #fff;
+}
+
+.login-user-form-w {
+	width: 578px;
+	padding: 36px 0 0 36px;
+	color: #fff;
+}
+
+.login-form .form-line {
+    padding-bottom: 16px;
+}
+
+.forgot-pass-form .form-line {
+    padding-bottom: 57px;
+}
+
+.login-form .login, .login-form .password, .forgot-pass-form .login {
+	background: #fff;
+	width: 552px;
+	padding: 2px 13px;
+	border: solid 1px #f36b21;
+	font-size: 36px;
+	color: #faa21b;
+}
+
+.login-form .forgot-lnk {
+	padding-top: 2px;
+	margin-left: 11px;
+	color: #fff;
+	border-bottom: solid 1px transparent;
+	text-decoration: none;
+}
+
+.login-form .forgot-lnk:hover {
+	border-bottom: solid 1px #fff;
+}
+
+.login-form .remember-me {
+	padding: 0;
+	margin: 0 2px 0 0;
+	border: 0;
+	vertical-align: middle;
+}
+
+.login-form .login-button-indent {
+	padding: 8px 0 0 2px;
+}
+
+/* Login form */
+
+
+/* Contact form */
+.contact-form-w {
+	background-color: #f2f2f2;
+	width: 450px;
+	padding: 19px 23px 11px;
+	border: solid 1px #949494;
+}
+
+.contact-form-w .form-line {
+	padding-bottom: 18px;
+}
+
+.contact-form-w .cf-label {
+	display: block;
+	padding-bottom: 5px;
+}
+
+.contact-form-w  .cf-text {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+}
+
+.contact-form-w  .cf-text-italic {
+	font-size: 12px;
+	font-style: italic;
+	line-height: 18px;
+}
+
+.contact-form-w  .cf-text-gray {
+	color: #666;
+}
+
+.contact-form-w .reason-type, .contact-form-w .cf-message, .contact-form-w .cf-mail {
+	background: #fff;
+	border: solid 1px #979797;
+	color: #333;
+	font-size: 12px;
+}
+
+.contact-form-w .reason-type {
+	width: 243px;
+	height: 20px;
+	line-height: 14px;
+}
+
+.contact-form-w .cf-message {
+	width: 442px;
+	height: 174px;
+	padding: 2px 3px;
+	resize: none;
+}
+
+.contact-form-w .cf-mail {
+	width: 234px;
+	padding: 2px 3px;
+}
+/* Contact form */
+
+
+/* Design title form */
+.landscape-position .design-title {
+	font-size: 0;
+	padding: 6px 0 0 21px;
+}
+
+.portrait-position .design-title {
+	padding: 17px 0 0;
+	overflow: hidden;
+	font-size: 0;
+}
+
+.design-title .form-line {
+	padding-bottom: 8px;
+}
+
+.design-title  .dt-label {
+	width: 100px;
+	display: inline-block;
+	padding-right: 8px;
+	text-align: right;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.design-title .required {
+	color: #f36b21;
+}
+
+.design-title .dt-input, .design-title textarea {
+	width: 262px;
+	padding: 3px 4px;
+	font-size: 12px;
+	color: #333;
+	vertical-align: middle;
+}
+
+.design-title textarea {
+	height: 14px;
+	resize: none;
+}
+
+.design-title select {
+	width: 182px;
+	height: 22px;
+	font-size: 12px;
+	line-height: 16px;
+	color: #333;
+	vertical-align: middle;
+}
+
+.note {
+	display: block;
+	color: #666;
+	font: italic 10px/13px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+}
+
+.design-title .note {
+	padding-left: 112px;
+	line-height: 12px;
+}
+
+.agreements-form input {
+	border: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.agreements .note {
+	padding-left: 24px;
+}
+
+.agreements .indent {
+	padding: 7px 0 0 19px;
+	font-size: 12px;
+}
+/* Design title form */
+
+/* Accept invite form */
+.invite-form {
+	width: 430px;
+}
+
+.invite-form .invite-block {
+	padding-bottom: 19px;
+}
+
+.invite-form .invite-auth-block {
+	padding-bottom: 78px;
+	overflow: hidden;
+}
+
+.invite-form .login-block, .invite-form .regis-block {
+	width: 353px;
+}
+
+.invite-form .login-block {
+	padding-bottom: 12px;
+}
+
+.invite-form .invite-input {
+	width: 154px;
+	height: 14px;
+	padding: 2px 5px;
+	margin-right: 8px;
+	border: solid 1px #d94c00;
+	color: #f36b21;
+}
+
+.invite-form .invite-input-indent {
+	margin-top: 12px;
+}
+
+.invite-form .brace {
+	font-size: 32px;
+}
+
+.invite-page .passphrase-note {
+	display: inline-block;
+	padding: 8px 0 0 9px;
+	float: left;
+	font-size: 12px;
+	font-style: italic;
+	font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+}
+
+.invite-page .forgot-lnk {
+	font-size: 11px;
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	top: 5px;
+}
+
+.invite-page .forgot-lnk:hover {
+	text-decoration: underline;
+}
+
+.invite-form .login-block .yellow-button {
+	position: relative;
+	top: 5px;
+	left: -6px;
+}
+
+.invite-form .regis-block .yellow-button {
+	margin-top: -21px;
+	margin-right: 6px;
+}
+
+/* Accept invite form */
+
+
+/* Search form */
+.search-form {
+	padding: 3px 5px 5px 3px;
+}
+
+.search-form .label {
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+
+.search-form .label span {
+	color: #333;
+}
+
+.search-form .default-select {
+	width: 178px;
+	height: 22px;
+	line-height: 16px;
+	font-size: 12px;
+}
+
+.search-form .keywords {
+	width: 320px;
+	height: 16px;
+	padding: 2px 6px;
+	color: #333;	
+}
+
+.search-form .form-line {
+	padding: 10px 9px 0 13px;
+}
+
+.search-form .default-button {
+	margin: 26px 0 0 74px;
+}
+/* Search form */
+
+
+
+
+
+
+
+
+

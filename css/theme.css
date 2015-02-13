@@ -1,0 +1,840 @@
+/* Red Theme of User */
+.red-theme #header .logo,
+.red-theme .slogan .gaga-word,
+.red-theme .pane-billboard,
+.red-theme .gaga-artist,
+.red-theme .design-img-container-empty,
+.red-theme .user-menu li.active span, .red-theme .user-menu li.active a, 
+.red-theme .user-menu li.active span:hover, .red-theme .user-menu li.active a:hover,
+.red-theme .user-menu li span:hover, .red-theme .user-menu li a:hover,
+.red-theme .my-stashers-item,
+.red-theme .sidebar .sidebar-headline,
+.red-theme .default-big-button, .red-theme .default-button,
+.red-theme .zwazo-birds,
+.red-theme .light-big-button,
+.red-theme .small-button, .red-theme .gagasticker,
+.red-theme .stash-inner .gagaword {
+	background-image: url(../images/red-theme.png);
+}
+
+.red-theme .light-big-button {
+	color: #ab0635 !important;
+}
+
+.red-theme .slogan, .red-theme .default-color, .red-theme .empty-stash,
+.red-theme .initial-member .stasher-personal-location, 
+.red-theme .initial-member .stasher-personal-gaga,
+.red-theme .comment-lnk, 
+.red-theme .pane-footer .active, .red-theme .pane-footer .active a,
+.red-theme .stasher-personal-name-small, 
+.red-theme .stash-headline .gagasticker,
+.red-theme .sidebar-inner-font16 a.link-16 {
+	color: #ab0635;
+}
+
+.red-theme .statistic-block {
+	background: #fcd3c1;
+	border: solid 1px #f69d9a;
+	color: #ab0635;
+}
+
+.red-theme .statistic-block-headline {
+	background: #d21242;
+	border-bottom: 2px solid #F69D9A;
+	color: #fcd3c1;
+}
+
+.red-theme .user-personal-info, .red-theme .user-personal-info a, 
+.red-theme .my-stashers-item, .red-theme .my-stashers-item a, 
+.red-theme .gaga-artist, .red-theme .sort-post {
+	color: #fcd3c1;
+}
+
+.red-theme .pane-footer .right-text .right-text-lnk {
+	color: #d21242;
+}
+
+.red-bullet .bullet {
+	background-position: 0 0;
+}
+
+.red-bullet .bullet-empty {
+	background-position: 0 -10px;
+}
+
+.red-bullet .bullet-big {
+	background-position: -12px 0;
+}
+
+.red-bullet .bullet-big-empty {
+	background-position: -12px -25px;
+}
+
+.red-theme .top-sub-menu li a:hover, .red-theme .top-sub-menu li:hover a, .red-theme .top-sub-menu li:hover ul li a:hover, 
+.red-theme .bot-panel-color, .red-theme .stash-item .stash-headline {
+	background: #ab0635;
+}
+
+.red-theme .comment-title {
+	background-color: #ab0635;
+	border: solid 1px #ab0635;
+}
+
+.red-theme .top-sub-menu li:hover ul li a {
+	background: #f1f1f1;
+}
+
+.red-theme .top-menu li {
+    background: url("../images/themes-separator.png") right 0px no-repeat;
+}
+
+.red-theme .sidebar .sidebar-content {
+	background: #fcd3c1;
+	border: solid 1px #fcd3c1;
+}
+
+.red-theme .user-personal-info h2, .red-theme .user-personal-info .user-name, .red-theme .user-statement h4 {
+	text-shadow: 1px 1px 2px #800528;
+}
+
+.red-theme .menu-arrow-right {
+	background-position: -183px -20px;
+}
+
+.red-theme .user-message .user-message-lnk:hover span {
+    border-bottom: solid 1px #fcd3c1;
+}
+
+.red-theme .stash-content {
+    background: #fcd3c1;
+    border: 1px solid #ab0635;
+}
+
+.red-theme .ui-state-active a {
+	background-position: left -222px;
+}
+
+.red-theme .ui-state-active a span {
+	background-position: right -261px;
+}
+
+.red-theme .ui-state-active a span span {
+	background-position: left -300px;
+}
+
+.red-theme .initial-member .stasher-personal-name {
+	color: #d21242;
+}
+/* Red Theme of User */ 
+
+
+/* Orange Theme of User */
+.orange-theme #header .logo,
+.orange-theme .slogan .gaga-word,
+.orange-theme .pane-billboard,
+.orange-theme .gaga-artist,
+.orange-theme .design-img-container-empty,
+.orange-theme .user-menu li.active span, .orange-theme .user-menu li.active a, 
+.orange-theme .user-menu li.active span:hover, .orange-theme .user-menu li.active a:hover,
+.orange-theme .user-menu li span:hover, .orange-theme .user-menu li a:hover,
+.orange-theme .my-stashers-item,
+.orange-theme .sidebar .sidebar-headline,
+.orange-theme .default-big-button, .orange-theme .default-button,
+.orange-theme .zwazo-birds,
+.orange-theme .light-big-button,
+.orange-theme .small-button, .orange-theme .gagasticker,
+.orange-theme .stash-inner .gagaword {
+	background-image: url(../images/orange-theme.png);
+}
+
+.orange-theme .light-big-button {
+	color: #f36b21 !important;
+}
+
+.orange-theme .slogan, .orange-theme .default-color,
+.orange-theme .initial-member .stasher-personal-location, 
+.orange-theme .initial-member .stasher-personal-gaga,
+.orange-theme .empty-stash, .orange-theme .comment-lnk, 
+.orange-theme .pane-footer .active, .orange-theme .pane-footer .active a,
+.orange-theme .stasher-personal-name-small, 
+.orange-theme .stash-headline .gagasticker,
+.orange-theme .sidebar-inner-font16 a.link-16 {
+	color: #f36b21;
+}
+
+.orange-theme .statistic-block {
+	background: #ffd9b8;
+	border: solid 1px #ffbc80;
+	color: #d9550d;
+}
+
+.orange-theme .statistic-block-headline {
+	background: #faa21b;
+	border-bottom: 2px solid #ffbc80;
+	color: #fdfce6;
+}
+
+.orange-theme .user-personal-info, .orange-theme .user-personal-info a, 
+.orange-theme .my-stashers-item, .orange-theme .my-stashers-item a, .orange-theme .gaga-artist,
+.orange-theme .sort-post {
+	color: #fdfce6;
+}
+
+.orange-theme .pane-footer .right-text .right-text-lnk {
+	color: #d9550d;
+}
+
+.orange-bullet .bullet {
+	background-position: 0 -20px;
+}
+
+.orange-bullet .bullet-empty {
+	background-position: 0 -30px;
+}
+
+.orange-bullet .bullet-big {
+	background-position: -12px -50px;
+}
+
+.orange-bullet .bullet-big-empty {
+	background-position: -12px -75px;
+}
+
+.orange-theme .top-sub-menu li a:hover, .orange-theme .top-sub-menu li:hover a, .orange-theme .top-sub-menu li:hover ul li a:hover, 
+.orange-theme .bot-panel-color, .orange-theme .stash-item .stash-headline {
+	background: #f36b21;
+}
+
+.orange-theme .comment-title {
+	background-color: #f36b21;
+	border: solid 1px #f36b21;
+}
+
+.orange-theme .top-sub-menu li:hover ul li a {
+	background: #f1f1f1;
+}
+
+.orange-theme .top-menu li {
+    background: url("../images/themes-separator.png") right -22px no-repeat;
+}
+
+.orange-theme .sidebar .sidebar-content {
+	background: #fdfce6;
+	border: solid 1px #fdfce6;
+}
+
+.orange-theme .user-personal-info h2, .orange-theme .user-personal-info .user-name, .orange-theme .user-personal-info .user-statement h4 {
+	text-shadow: 1px 1px 1px #d05c1c;
+}
+
+.orange-theme .menu-arrow-right {
+	background-position: -183px -30px;
+}
+
+.orange-theme .user-message .user-message-lnk:hover span {
+    border-bottom: solid 1px #fdfce6;
+}
+
+.orange-theme .stash-content {
+    background: #fdfce6;
+    border: 1px solid #f36b21;
+}
+
+.orange-theme .ui-state-active a {
+	background-position: left -339px;
+}
+
+.orange-theme .ui-state-active a span {
+	background-position: right -378px;
+}
+
+.orange-theme .ui-state-active a span span {
+	background-position: left -417px;
+}
+
+.orange-theme .initial-member .stasher-personal-name {
+	color: #faa21b;
+}
+/* Orange Theme of User */
+
+
+/* Yellow Theme of User */ 
+.yellow-theme #header .logo,
+.yellow-theme .slogan .gaga-word,
+.yellow-theme .top-nav .button,
+.yellow-theme .pane-billboard,
+.yellow-theme .gaga-artist,
+.yellow-theme .design-img-container-empty,
+.yellow-theme .user-menu li.active span, .yellow-theme .user-menu li.active a, 
+.yellow-theme .user-menu li.active span:hover, .yellow-theme .user-menu li.active a:hover,
+.yellow-theme .user-menu li span:hover, .yellow-theme .user-menu li a:hover,
+.yellow-theme .my-stashers-item,
+.yellow-theme .sidebar .sidebar-headline,
+.yellow-theme .default-big-button, .yellow-theme .default-button,
+.yellow-theme .zwazo-birds,
+.yellow-theme .light-big-button,
+.yellow-theme .small-button, .yellow-theme .gagasticker,
+.yellow-theme .stash-inner .gagaword {
+	background-image: url(../images/yellow-theme.png);
+}
+
+.yellow-theme .light-big-button {
+	color: #faa61a !important;
+}
+
+.yellow-theme .slogan, .yellow-theme .pane-footer .right-text .right-text-lnk, 
+.yellow-theme .default-color,
+.yellow-theme .initial-member .stasher-personal-location, 
+.yellow-theme .initial-member .stasher-personal-gaga,
+.yellow-theme .empty-stash, .yellow-theme .comment-lnk, 
+.yellow-theme .pane-footer .active, .yellow-theme .pane-footer .active a,
+.yellow-theme .stasher-personal-name-small, 
+.yellow-theme .stash-headline .gagasticker,
+.yellow-theme .sidebar-inner-font16 a.link-16 {
+	color: #faa61a;
+}
+
+.yellow-theme .statistic-block {
+	background: #fff7cf;
+	border: solid 1px #fce881;
+	color: #fb9400;
+}
+
+.yellow-theme .statistic-block-headline {
+	background: #ffd200;
+	border-bottom: 2px solid #fce881;
+	color: #fff;
+}
+
+.yellow-theme .user-personal-info, .yellow-theme .user-personal-info a, 
+.yellow-theme .my-stashers-item, .yellow-theme .my-stashers-item a, .yellow-theme .gaga-artist,
+.yellow-theme .sort-post {
+	color: #7D530D;
+}
+
+.yellow-bullet .bullet {
+	background-position: 0 -40px;
+}
+
+.yellow-bullet .bullet-empty {
+	background-position: 0 -50px;
+}
+
+.yellow-bullet .bullet-big {
+	background-position: -37px 0;
+}
+
+.yellow-bullet .bullet-big-empty {
+	background-position: -37px -25px;
+}
+
+.yellow-theme .top-sub-menu li a:hover, .yellow-theme .top-sub-menu li:hover a, .yellow-theme .top-sub-menu li:hover ul li a:hover, 
+.yellow-theme .bot-panel-color, .yellow-theme .stash-item .stash-headline {
+	background: #faa61a;
+}
+
+.yellow-theme .comment-title {
+	background-color: #faa61a;
+	border: solid 1px #faa61a;
+}
+
+.yellow-theme .top-sub-menu li:hover ul li a {
+	background: #f1f1f1;
+}
+
+.yellow-theme .top-menu li {
+    background: url("../images/themes-separator.png") right -44px no-repeat;
+}
+
+.yellow-theme .sidebar .sidebar-content {
+	background: #fdfce6;
+	border: solid 1px #fdfce6;
+}
+
+.yellow-theme .user-personal-info h2, .yellow-theme .user-personal-info .user-name, .yellow-theme .user-personal-info .user-statement h4 {
+	text-shadow: 1px 1px 1px #fdfce6;
+}
+
+.yellow-theme .menu-arrow-right {
+	background-position: -183px -40px;
+}
+
+.yellow-theme .user-message .user-message-lnk:hover span {
+    border-bottom: solid 1px #7D530D;
+}
+
+.yellow-theme .stash-content {
+    background: #fdfce6;
+    border: 1px solid #ffd200;
+}
+
+.yellow-theme .ui-state-active a {
+	background-position: left -456px;
+}
+
+.yellow-theme .ui-state-active a span {
+	background-position: right -495px;
+}
+
+.yellow-theme .ui-state-active a span span {
+	background-position: left -534px;
+}
+
+.yellow-theme .initial-member .stasher-personal-name {
+	color: #ffd200;
+}
+/* Yellow Theme of User */ 
+
+
+/* Green Theme of User */
+.green-theme #header .logo,
+.green-theme .slogan .gaga-word,
+.green-theme .top-nav .button,
+.green-theme .pane-billboard,
+.green-theme .gaga-artist,
+.green-theme .design-img-container-empty,
+.green-theme .user-menu li.active span, .green-theme .user-menu li.active a, 
+.green-theme .user-menu li.active span:hover, .green-theme .user-menu li.active a:hover,
+.green-theme .user-menu li span:hover, .green-theme .user-menu li a:hover,
+.green-theme .my-stashers-item,
+.green-theme .sidebar .sidebar-headline,
+.green-theme .default-big-button, .green-theme .default-butto,
+.green-theme .zwazo-birds,
+.green-theme .light-big-button,
+.green-theme .small-button, .green-theme .gagasticker,
+.green-theme .stash-inner .gagaword  {
+	background-image: url(../images/green-theme.png);
+}
+
+.green-theme .light-big-button {
+	color: #00853f !important;
+}
+
+.green-theme .slogan, .green-theme .pane-footer .right-text .right-text-lnk, 
+.green-theme .default-color,
+.green-theme .initial-member .stasher-personal-location, 
+.green-theme .initial-member .stasher-personal-gaga,
+.green-theme .empty-stash, .green-theme .comment-lnk, 
+.green-theme .pane-footer .active, .green-theme .pane-footer .active a,
+.green-theme .stasher-personal-name-small, 
+.green-theme .stash-headline .gagasticker, 
+.green-theme .sidebar-inner-font16 a.link-16 {
+	color: #00853f;
+}
+
+.green-theme .statistic-block {
+	background: #e2ffde;
+	border: solid 1px #84ff75;
+	color: #00853f;
+}
+
+.green-theme .statistic-block-headline {
+	background: #54b948;
+	border-bottom: 2px solid #84ff75;
+	color: #eef6e7;
+}
+
+.green-theme .user-personal-info, .green-theme .user-personal-info a, 
+.green-theme .my-stashers-item, .green-theme .my-stashers-item a, .green-theme .gaga-artist,
+.green-theme .sort-post {
+	color: #eef6e7;
+}
+
+.green-bullet .bullet {
+	background-position: 0 -60px;
+}
+
+.green-bullet .bullet-empty {
+	background-position: 0 -70px;
+}
+
+.green-bullet .bullet-big {
+	background-position: -36px -50px;
+}
+
+.green-bullet .bullet-big-empty {
+	background-position: -37px -75px;
+}
+
+.green-theme .top-sub-menu li a:hover, .green-theme .top-sub-menu li:hover a, .green-theme .top-sub-menu li:hover ul li a:hover, 
+.green-theme .bot-panel-color, .green-theme .stash-item .stash-headline {
+	background: #00853f;
+}
+
+.green-theme .comment-title {
+	background-color: #00853f;
+	border: solid 1px #00853f;
+}
+
+.green-theme .top-sub-menu li:hover ul li a {
+	background: #f1f1f1;
+}
+
+.green-theme .top-menu li {
+    background: url("../images/themes-separator.png") right -66px no-repeat;
+}
+
+.green-theme .sidebar .sidebar-content {
+	background: #eef6e7;
+	border: solid 1px #eef6e7;
+}
+
+.green-theme .user-personal-info h2, .green-theme .user-personal-info .user-name, .green-theme .user-personal-info .user-statement h4 {
+	text-shadow: 1px 1px 1px #193525;
+}
+
+.green-theme .menu-arrow-right {
+	background-position: -189px -20px;
+}
+
+.green-theme .user-message .user-message-lnk:hover span {
+    border-bottom: solid 1px #eef6e7;
+}
+
+.green-theme .stash-content {
+	background: #eef6e7;
+	border: solid 1px #00853f;
+}
+
+.green-theme .ui-state-active a {
+	background-position: left -573px;
+}
+
+.green-theme .ui-state-active a span {
+	background-position: right -612px;
+}
+
+.green-theme .ui-state-active a span span {
+	background-position: left -651px;
+}
+
+.green-theme .initial-member .stasher-personal-name {
+	color: #54b948;
+}
+/* Green Theme of User */
+
+
+/* Blue Theme of User */ 
+.blue-theme #header .logo,
+.blue-theme .slogan .gaga-word,
+.blue-theme .top-nav .button,
+.blue-theme .pane-billboard,
+.blue-theme .gaga-artist,
+.blue-theme .design-img-container-empty,
+.blue-theme .user-menu li.active span, .blue-theme .user-menu li.active a, 
+.blue-theme .user-menu li.active span:hover, .blue-theme .user-menu li.active a:hover,
+.blue-theme .user-menu li span:hover, .blue-theme .user-menu li a:hover,
+.blue-theme .my-stashers-item,
+.blue-theme .sidebar .sidebar-headline,
+.blue-theme .default-big-button, .blue-theme .default-button,
+.blue-theme .zwazo-birds,
+.blue-theme .light-big-button,
+.blue-theme .small-button, .blue-theme .gagasticker,
+.blue-theme .stash-inner .gagaword {
+	background-image: url(../images/blue-theme.png);
+}
+
+.blue-theme .light-big-button {
+	color: #0066aa !important;
+}
+
+.blue-theme .slogan, .blue-theme .pane-footer .right-text .right-text-lnk, .blue-theme .default-color,
+.blue-theme .stasher-personal-name-small,
+.blue-theme .gagasticker,
+.blue-theme .sidebar-inner-font16 a.link-16,
+.blue-theme .initial-member .stasher-personal-location, .blue-theme .initial-member .stasher-personal-gaga,
+.blue-theme .empty-stash, .blue-theme .comment-lnk, .blue-theme .pane-footer .active, .blue-theme .pane-footer .active a,
+.blue-theme .stasher-personal-name-small, .blue-theme .stash-headline .gagasticker {
+	color: #0066aa;
+}
+
+.blue-theme .statistic-block {
+	background: #e7eff6;
+	border: solid 1px #bfd8ea;
+	color: #0066aa;
+}
+
+.blue-theme .statistic-block-headline {
+	background: #59a9d1;
+	border-bottom: 2px solid #bfd8ea;
+	color: #e7eff6;
+}
+
+.blue-theme .user-personal-info, .blue-theme .user-personal-info a, 
+.blue-theme .my-stashers-item, .blue-theme .my-stashers-item a, .blue-theme .gaga-artist,
+.blue-theme .sort-post {
+	color: #e7eff6;
+}
+
+.blue-bullet .bullet {
+	background-position: 0 -80px;
+}
+
+.blue-bullet .bullet-empty {
+	background-position: 0 -90px;
+}
+
+.blue-bullet .bullet-big {
+	background-position: -63px 0;
+}
+
+.blue-bullet .bullet-big-empty {
+	background-position: -63px -25px;
+}
+
+.blue-theme .top-sub-menu li a:hover, .blue-theme .top-sub-menu li:hover a, .blue-theme .top-sub-menu li:hover ul li a:hover, 
+.blue-theme .bot-panel-color, .blue-theme .stash-item .stash-headline {
+	background: #0066aa;
+}
+
+.blue-theme .comment-title {
+	background-color: #0066aa;
+	border: solid 1px #0066aa;
+}
+
+.blue-theme .top-sub-menu li:hover ul li a {
+	background: #f1f1f1;
+}
+
+.blue-theme .top-menu li {
+    background: url("../images/themes-separator.png") right -88px no-repeat;
+}
+
+.blue-theme .sidebar .sidebar-content {
+	background: #e7eef6;
+	border: solid 1px #e7eef6;
+}
+
+.blue-theme .user-personal-info h2, .blue-theme .user-personal-info .user-name, .blue-theme .user-personal-info .user-statement h4 {
+	text-shadow: 1px 1px 1px #172A35;
+}
+
+.blue-theme .menu-arrow-right {
+	background-position: -189px -30px;
+}
+
+.blue-theme .user-message .user-message-lnk:hover span {
+    border-bottom: solid 1px #e7eef6;
+}
+
+.blue-theme .stash-content {
+	background: #e7eef6;
+	border: solid 1px #0066aa;
+}
+
+.blue-theme .ui-state-active a {
+	background-position: left -105px;
+}
+
+.blue-theme .ui-state-active a span {
+	background-position: right -144px;
+}
+
+.blue-theme .ui-state-active a span span {
+	background-position: left -183px;
+}
+
+.blue-theme .initial-member .stasher-personal-name {
+	color: #59A9D1;
+}
+/* Blue Theme of User */ 
+
+
+/* Purple Theme of User */ 
+.purple-theme #header .logo,
+.purple-theme .slogan .gaga-word,
+.purple-theme .pane-billboard,
+.purple-theme .gaga-artist,
+.purple-theme .design-img-container-empty,
+.purple-theme .user-menu li.active span, .purple-theme .user-menu li.active a, 
+.purple-theme .user-menu li.active span:hover, .purple-theme .user-menu li.active a:hover,
+.purple-theme .user-menu li span:hover, .purple-theme .user-menu li a:hover,
+.purple-theme .my-stashers-item,
+.purple-theme .sidebar .sidebar-headline,
+.purple-theme .default-big-button, .purple-theme .default-button,
+.purple-theme .zwazo-birds,
+.purple-theme .light-big-button,
+.purple-theme .small-button, .purple-theme .gagasticker,
+.purple-theme .stash-inner .gagaword {
+	background-image: url(../images/purple-theme.png);
+}
+
+.purple-theme .light-big-button {
+	color: #7e0c6e !important;
+}
+
+.purple-theme .slogan, .purple-theme .pane-footer .right-text .right-text-lnk, .purple-theme .default-color,
+.purple-theme .initial-member .stasher-personal-location, 
+.purple-theme .initial-member .stasher-personal-gaga,
+.purple-theme .empty-stash, .purple-theme .comment-lnk, 
+.purple-theme .pane-footer .active, .purple-theme .pane-footer .active a,
+.purple-theme .stasher-personal-name-small, 
+.purple-theme .stash-headline .gagasticker,
+.purple-theme .sidebar-inner-font16 a.link-16 {
+	color: #7e0c6e;
+}
+
+.purple-theme .statistic-block {
+	background: #ebdde4;
+	border: solid 1px #eb99c2;
+	color: #7e0c6e;
+}
+
+.purple-theme .statistic-block-headline {
+	background: #AD208E;
+	border-bottom: 2px solid #eb99c2;
+	color: #e7eff6;
+}
+
+.purple-theme .user-personal-info, .purple-theme .user-personal-info a, 
+.purple-theme .my-stashers-item, .purple-theme .my-stashers-item a, .purple-theme .gaga-artist {
+	color: #fdef42;
+}
+
+.purple-bullet .bullet {
+	background-position: 0 -100px;
+}
+
+.purple-bullet .bullet-empty {
+	background-position: 0 -110px;
+}
+
+.purple-bullet .bullet-big {
+	background-position: -62px -50px;
+}
+
+.purple-bullet .bullet-big-empty {
+	background-position: -62px -75px;
+}
+
+.purple-theme .top-sub-menu li a:hover, .purple-theme .top-sub-menu li:hover a, .purple-theme .top-sub-menu li:hover ul li a:hover, 
+.purple-theme .bot-panel-color, .purple-theme .stash-item .stash-headline {
+	background: #7e0c6e;
+}
+
+.purple-theme .comment-title {
+	background-color: #7e0c6e;
+	border: solid 1px #7e0c6e;
+}
+
+.purple-theme .top-sub-menu li:hover ul li a {
+	background: #f1f1f1;
+}
+
+.purple-theme .top-menu li {
+    background: url("../images/themes-separator.png") right -110px no-repeat;
+}
+
+.purple-theme .sidebar .sidebar-content {
+	background: #ebdde4;
+	border: solid 1px #ebdde4;
+}
+
+.purple-theme .user-personal-info h2, .purple-theme .user-personal-info .user-name, .purple-theme .user-personal-info .user-statement h4 {
+	text-shadow: 1px 1px 3px #331830;
+}
+
+.purple-theme .menu-arrow-right {
+	background-position: -189px -40px;
+}
+
+.purple-theme .user-message .user-message-lnk:hover span {
+    border-bottom: solid 1px #FDEF42;
+}
+
+.purple-theme .stash-content {
+	background: #ebdde4;
+	border: solid 1px #7e0c6e;
+}
+
+.purple-theme .ui-state-active a {
+	background-position: left -690px;
+}
+
+.purple-theme .ui-state-active a span {
+	background-position: right -729px;
+}
+
+.purple-theme .ui-state-active a span span {
+	background-position: left -768px;
+}
+
+.purple-theme .initial-member .stasher-personal-name {
+	color: #ad208e;
+}
+
+.purple-theme .sort-post {
+	color: #fff;
+}
+/* Purple Theme of User */
+
+
+/* General */
+.red-theme .sidebar .sidebar-headline, .orange-theme .sidebar .sidebar-headline, .yellow-theme .sidebar .sidebar-headline, .green-theme .sidebar .sidebar-headline,
+.blue-theme .sidebar .sidebar-headline, .purple-theme .sidebar .sidebar-headline {
+    background-position: 0 -366px;
+}
+
+.red-theme #header .logo, .orange-theme #header .logo, .yellow-theme #header .logo, .green-theme #header .logo, .blue-theme #header .logo, .purple-theme #header .logo {
+	background-position: 0 -262px;
+}
+
+.red-theme .slogan .gaga-word, .orange-theme .slogan .gaga-word, .yellow-theme .slogan .gaga-word, .green-theme .slogan .gaga-word, .blue-theme .slogan .gaga-word, .purple-theme .slogan .gaga-word {
+	background-position: -558px -317px;
+}
+
+.red-theme .default-button, .orange-theme .default-button, .yellow-theme .default-button, .green-theme .default-button, .blue-theme .default-button, .purple-theme .default-button {
+	background-position: -329px -337px;
+}
+
+
+.red-theme .default-button:hover, .red-theme .browse .file-button:hover .default-button,
+.orange-theme .default-button:hover, .orange-theme .browse .file-button:hover .default-button,
+.yellow-theme .default-button:hover, .yellow-theme .browse .file-button:hover .default-button,
+.green-theme .default-button:hover, .green-theme .browse .file-button:hover .default-button,
+.blue-theme .default-button:hover, .blue-theme .browse .file-button:hover .default-button,
+.purple-theme .default-button:hover, .purple-theme .browse .file-button:hover .default-button {
+	background-position: -416px -337px;
+}
+
+.red-theme .light-big-button, .orange-theme .light-big-button, .yellow-theme .light-big-button, .green-theme .light-big-button, .blue-theme .light-big-button, .purple-theme .light-big-button {
+	background-position: -345px -366px;
+}
+
+.red-theme .light-big-button:hover, .orange-theme .light-big-button:hover, .yellow-theme .light-big-button:hover, .green-theme .light-big-button:hover, .blue-theme .light-big-button:hover, .purple-theme .light-big-button:hover {
+	background-position: -345px -395px;
+}
+
+.red-theme .user-menu li span:hover, .red-theme .user-menu li a:hover, 
+.orange-theme .user-menu li span:hover, .orange-theme .user-menu li a:hover, 
+.yellow-theme .user-menu li span:hover, .yellow-theme .user-menu li a:hover, 
+.green-theme .user-menu li span:hover, .green-theme .user-menu li a:hover, 
+.blue-theme .user-menu li span:hover, .blue-theme .user-menu li a:hover, 
+.purple-theme .user-menu li span:hover, .purple-theme .user-menu li a:hover {
+	background-position: -176px -262px;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+.red-theme .pane-billboard, .orange-theme .pane-billboard, .yellow-theme .pane-billboard, .green-theme .pane-billboard, .blue-theme .pane-billboard, .purple-theme .pane-billboard {
+	background-position: 0 0;
+}
+
+.red-theme a.default-color, .orange-theme a.default-color, .yellow-theme a.default-color, .green-theme a.default-color, .blue-theme a.default-color, .purple-theme a.default-color {
+	text-decoration: none;
+}
+
+.red-theme a.default-color:hover, .orange-theme a.default-color:hover, .yellow-theme a.default-color:hover, .green-theme a.default-color:hover, .blue-theme a.default-color:hover, .purple-theme a.default-color:hover {
+	text-decoration: underline;
+}
+
+ .red-theme.ui-state-default a, .red-theme .ui-state-default span, .red-theme .ui-state-active a, .red-theme .ui-state-active span,
+.orange-theme .ui-state-default a, .orange-theme .ui-state-default span, .orange-theme .ui-state-active a, .orange-theme .ui-state-active span,
+.yellow-theme .ui-state-default a, .yellow-theme .ui-state-default span, .yellow-theme .ui-state-active a, .yellow-theme .ui-state-active span,
+.green-theme .ui-state-default a, .green-theme .ui-state-default span, .green-theme .ui-state-active a, .green-theme .ui-state-active span,
+.blue-theme .ui-state-default a, .blue-theme .ui-state-default span, .blue-theme .ui-state-active a, .blue-theme .ui-state-active span,
+.purple-theme .ui-state-default a, .purple-theme .ui-state-default span, .purple-theme .ui-state-active a, .purple-theme .ui-state-active span {
+	background-image: url(../images/tabs.png);
+}
+
+/* General */

@@ -1,0 +1,126 @@
+.clearfix {zoom: 1;}
+
+.top-menu > li, .footer-menu li, .design-action-item, .my-stashers-item .stasher-photo-frame, .user-menu li, .form-personalize-icon .icon-border, .form-personalize-icon .gagatag-setup, .gagatag-setup-color .color-box, .upload-img-container, .form-personalize-text .right-block h3, .product-wrp,
+.mdg-list .mdg-list-item, .support-level-list .support-level-item {
+	display: inline;
+	zoom: 1;
+}
+
+.top-sub-menu li {display: list-item;}
+
+.top-menu li a {display: block;}
+
+.top-nav {
+	position: relative;
+	z-index: 10;
+}
+
+.upload-img-container {vertical-align: top;}
+
+.gaga-word {top: 0;}
+
+input.default-button, input.gray-button {padding: 2px 0 5px;}
+
+.registr-form .radio-box #male, .registr-form .radio-box #female {vertical-align: middle;}
+
+.slogan .slogan-italic {line-height: 3;}
+
+.slogan {
+	position: relative;
+	z-index: 1;
+}
+
+.pane-spacer {height: 2px;}
+
+/* .editor-img-inner, .pane-headline-block {
+	position: absolute;
+	top: 50%;
+	display: block;
+	height: auto !important;
+}
+
+.editor-img-inner img, .pane-headline-block h2 {
+	position: relative;
+	top: -50% !important;
+} */
+
+.pane-headline-block {
+	position: absolute;
+	top: 50%;
+	display: block;
+	height: auto !important;
+}
+
+.pane-headline-block h2 {
+	position: relative;
+	top: -50% !important;
+}
+
+.yellow-big-button {padding: 2px 0 5px}
+
+.stasher-rating .bullet, .stasher-rating .bullet-empty {margin-left: 1px;}
+
+.portfolio-slider-item .design-action img {vertical-align: top}
+
+.portfolio-slider-item .design-action .lnk-wrapper {top: 0}
+
+#fancybox-title {z-index: 1;}
+
+#fancybox-outer {z-index: 100}
+
+.circle-badges .bullet, .circle-badges .bullet-empty {margin-left: 1px;}
+
+.user-personal-info h2, .user-menu-wrapper h2 {
+	position: relative;
+	z-index: 1;
+}
+
+.gaga-stick-wrapper-portrait .gaga-stick-note, .gaga-stick-wrapper-portrait .gaga-stick {float: left;}
+
+.gaga-stick-wrapper-portrait .gaga-stick-note {
+	top: 180px;
+	line-height: 20px;
+}
+
+.gaga-stick-wrapper-landscape .gaga-stick-note, .gaga-stick-wrapper-landscape .gaga-stick {float: left;}
+
+.gaga-stick-wrapper-landscape .gaga-stick-note {
+	top: 30px;
+	line-height: 20px;
+}
+
+.form-personalize-icon .gagatag-setup {width: 205px;}
+
+.form-personalize-icon .right-block label {width: 196px;}
+
+.personalize-gagastick-photo {
+	position: relative;
+	z-index: 100;
+}
+
+.ui-state-default a, .ui-state-default a span {height: 34px}
+
+.ui-state-default a span span {
+	height: 25px;
+	cursor: pointer;
+}
+
+.ui-state-active a span span {
+	height: 32px;
+	cursor: pointer;
+}
+
+.ui-state-default:first-child {
+	margin-right: 2px;
+}
+
+#comment {width: 388px;}
+
+.gaga-artist {
+	height: 34px;
+	padding: 18px 0 0 26px;
+}
+
+#mycarousel {
+	zoom: 1;
+}
